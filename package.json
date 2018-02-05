@@ -1,0 +1,39 @@
+{
+  "name": "test-project-server-side",
+  "version": "1.0.0",
+  "description": "test-project server side impl.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dark-Passenger/test-project-server-side.git"
+  },
+  "author": "Dhruv Paranjape",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dark-Passenger/test-project-server-side/issues"
+  },
+  "homepage": "https://github.com/Dark-Passenger/test-project-server-side#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express.js": "^1.0.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/debug": "0.0.30",
+    "@types/express": "^4.11.1",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^9.4.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.4",
+    "nodemon": "^1.14.12",
+    "typescript": "^2.7.1"
+  }
+}
